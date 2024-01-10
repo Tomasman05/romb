@@ -19,6 +19,6 @@ public class Romb {
         return Math.pow(side, 2)*Math.sin(Math.toRadians(angle));
     }
     public double calcPerim(double side){
-        return 0;
+        return 4*side;
     }
 }
