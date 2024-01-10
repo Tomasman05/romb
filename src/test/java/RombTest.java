@@ -40,5 +40,9 @@ public class RombTest {
     public void calcArea_40_0(){
         this.romb.calcArea(40, 0);
     }
+    @Test
+    public void calcPerim_5_5_5_5(){
+        this.romb.calcPerim();
+    }
 
 }
