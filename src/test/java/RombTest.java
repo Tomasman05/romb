@@ -16,4 +16,11 @@ public class RombTest {
         double expected = 516.2;
         Assert.assertEquals(actual, expected,0.1);
     }
+    @Test
+    public void calcArea_40_45(){
+        double actual = this.romb.calcArea(40,45);
+        double expected = 1131.4;
+        Assert.assertEquals(actual, expected,0.1);
+    }
+
 }
