@@ -27,5 +27,9 @@ public class RombTest {
     public void calcArea_0_45(){
         this.romb.calcArea(0, 45);
     }
+    @Test(expectedExceptions = InputMismatchException.class)
+    public void calcArea_40_0(){
+        this.romb.calcArea(40, 0);
+    }
 
 }
