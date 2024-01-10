@@ -12,5 +12,6 @@ public class RombTest {
     @Test
     public void calcArea_30_35(){
         double actual = this.romb.calcArea();
+        double expected = 516.2;
     }
 }
