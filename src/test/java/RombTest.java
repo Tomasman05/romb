@@ -54,5 +54,8 @@ public class RombTest {
         double expected = 24;
         Assert.assertEquals(actual, expected);
     }
-
+    @Test(expectedExceptions = InputMismatchException.class)
+    public void calcPerim_0(){
+        this.romb.calcPerim(0);
+    }
 }
