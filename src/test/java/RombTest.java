@@ -41,8 +41,10 @@ public class RombTest {
         this.romb.calcArea(40, 0);
     }
     @Test
-    public void calcPerim_5_5_5_5(){
-        this.romb.calcPerim();
+    public void calcPerim_5(){
+        double actual =this.romb.calcPerim(5);
+        double expected = 20;
+        Assert.assertEquals(actual, expected);
     }
 
 }
