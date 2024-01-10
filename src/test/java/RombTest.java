@@ -1,3 +1,12 @@
+/*
+* File: RombTest.java
+* Author: Vitovszki Tamás
+* Copyright: 2024, Vitovszki Tamás 
+* Date: 2024-01-10
+* Web: https://github.com/Tomasman05/romb.git
+* Licenc: MIT
+*
+*/
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
